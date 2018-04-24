@@ -1,0 +1,19 @@
+{
+  "name": "klangbaum",
+  "version": "0.0.1",
+  "description": "a tree formed by your music interest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fPrager/klangbaum.git"
+  },
+  "author": "Fabian Prager",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fPrager/klangbaum/issues"
+  },
+  "homepage": "https://github.com/fPrager/klangbaum#readme"
+}
