@@ -18,7 +18,7 @@ const doRequest = () => new Promise((resolve) => {
   });
 });
 
-const updateJson = () => doRequest().then((dom) => {
+const updateJson = (doCamelize) => doRequest().then((dom) => {
   const items = dom.split('<div id=item');
   const genresRX = /quot;">(.*?)<a class/;
   const topRX = /top: (.*?)px;/;
@@ -33,7 +33,7 @@ const updateJson = () => doRequest().then((dom) => {
     let electric = topRX.exec(item);
     let atmospheric = leftRX.exec(item);
     if (!genre || !electric || !atmospheric) { return; }
-    genre = camelize(genre[1]);
+    genre = doCamelize ? camelize(genre[1]) : genre[1];
     electric = Number(electric[1]);
     atmospheric = Number(atmospheric[1]);
 
