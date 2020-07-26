@@ -1,4 +1,4 @@
-# klangbaum
+# music genre map
 
 script to fetch genre map from evernoise http://everynoise.com/
 
@@ -13,4 +13,4 @@ script to fetch genre map from evernoise http://everynoise.com/
   }
 ```
 
-[![Run on Repl.it](https://repl.it/badge/github/fPrager/klangbaum)](https://repl.it/github/fPrager/klangbaum)
+[![Run on Repl.it](https://repl.it/badge/github/fPrager/musicgenremap)](https://repl.it/github/fPrager/musicgenremap)
